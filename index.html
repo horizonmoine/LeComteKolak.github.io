@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marko LE COMTE-KOLAK • Développeur</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="loader" id="loader">
+      <div class="loader__logo">MLC</div>
+      <div class="loader__bar">
+        <div class="loader__progress"></div>
+      </div>
+    </div>
+
+    <nav class="nav" id="nav">
+      <div class="nav__logo">MLC</div>
+      <ul class="nav__menu" id="navMenu">
+        <li class="nav__item">
+          <a href="#accueil" class="nav__link">Accueil</a>
+        </li>
+        <li class="nav__item">
+          <a href="#profil" class="nav__link">Profil</a>
+        </li>
+        <li class="nav__item">
+          <a href="#competences" class="nav__link">Compétences</a>
+        </li>
+        <li class="nav__item">
+          <a href="#projets" class="nav__link">Projets</a>
+        </li>
+        <li class="nav__item">
+          <a href="#stages" class="nav__link">Expérience</a>
+        </li>
+        <li class="nav__item">
+          <a href="#veille" class="nav__link">Veille</a>
+        </li>
+        <li class="nav__item">
+          <a href="#contact" class="nav__link">Contact</a>
+        </li>
+      </ul>
+      <div class="nav__toggle" id="menuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+    <main>
+      <section id="accueil" class="hero">
+        <div class="hero__bg"></div>
+        <div class="hero__grid-bg"></div>
+        <div class="hero__content">
+          <span class="hero__label">🚀 Développeur • BTS SIO SLAM</span>
+          <h1 class="hero__title">
+            <span class="hero__gradient-text">MARKO</span><br />
+            LE COMTE-KOLAK
+          </h1>
+          <p class="hero__description">
+            Créateur d'expériences numériques innovantes. Passionné par le code,
+            le design et les technologies qui transforment le web.
+          </p>
+          <div class="hero__cta">
+            <a href="#projets" class="btn btn--primary">
+              <span>Découvrir mes projets</span>
+              <span>→</span>
+            </a>
+            <a href="#contact" class="btn btn--secondary">
+              <span>Me contacter</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <div class="stats">
+        <div class="stats__item">
+          <div class="stats__number" data-target="2">0</div>
+          <div class="stats__label">Années d'études</div>
+        </div>
+        <div class="stats__item">
+          <div class="stats__number" data-target="8">0</div>
+          <div class="stats__label">Technologies maîtrisées</div>
+        </div>
+        <div class="stats__item">
+          <div class="stats__number" data-target="9">0</div>
+          <div class="stats__label">Semaines de stage</div>
+        </div>
+        <div class="stats__item">
+          <div class="stats__number">
+            100<span class="stats__percent">%</span>
+          </div>
+          <div class="stats__label">Passion & Détermination</div>
+        </div>
+      </div>
+
+      <section id="profil" class="profile">
+        <div class="section-header">
+          <div class="section-header__tag">À PROPOS</div>
+          <h2 class="section-header__title">Mon Parcours</h2>
+          <p class="section-header__desc">
+            Étudiant passionné en développement web, je construis mon expertise
+            à travers une formation solide et des projets concrets.
+          </p>
+        </div>
+
+        <div class="profile__grid">
+          <div class="profile__image">
+            <img src="img/pfp.png" alt="Photo-de-profil" class="pfp_image" />
+          </div>
+          <div class="profile__card">
+            <h3>Bonjour, je suis Marko</h3>
+            <p>
+              Actuellement en BTS SIO option SLAM au Lycée public des Sciences
+              et du Numérique - Louis Armand, je me spécialise dans le
+              développement d'applications web et la création de solutions
+              logicielles innovantes.
+            </p>
+            <p>
+              Le BTS SIO (Services Informatiques aux Organisations) est une
+              formation de deux ans qui forme aux métiers du développement et de
+              l'administration réseau. Elle offre une solide base technique et
+              ouvre les portes du marché du travail ou de la poursuite d'études
+              supérieures.
+            </p>
+          </div>
+        </div>
+
+        <div class="bts-grid">
+          <div class="bts-grid__card">
+            <div class="bts-grid__icon">💻</div>
+            <h3>SLAM</h3>
+            <h4>Solutions Logicielles et Applications Métiers</h4>
+            <p>
+              Spécialisation en développement web, création d'applications sur
+              mesure et conception de solutions logicielles adaptées aux besoins
+              métiers.
+            </p>
+          </div>
+          <div class="bts-grid__card">
+            <div class="bts-grid__icon">🌐</div>
+            <h3>SISR</h3>
+            <h4>Solutions d'Infrastructure, Systèmes et Réseaux</h4>
+            <p>
+              Expertise en administration système, mise en place et gestion de
+              l'infrastructure réseau et sécurité informatique.
+            </p>
+          </div>
+        </div>
+
+        <div class="section-header section-header--timeline">
+          <h2 class="section-header__title">Parcours Académique</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline__line"></div>
+
+          <div class="timeline__block">
+            <div class="timeline__content">
+              <div class="timeline__year">2024 - Présent</div>
+              <h4>BTS SIO option SLAM</h4>
+              <p>
+                Lycée public des Sciences et du Numérique - Louis Armand<br />
+                Formation intensive en développement web et applications
+                métiers.
+              </p>
+            </div>
+            <div class="timeline__dot"></div>
+          </div>
+
+          <div class="timeline__block">
+            <div class="timeline__content">
+              <div class="timeline__year">2023 - 2024</div>
+              <h4>DUT PaRéO</h4>
+              <p>
+                Formation universitaire technologique orientée vers la
+                professionnalisation et l'acquisition de compétences pratiques.
+              </p>
+            </div>
+            <div class="timeline__dot"></div>
+          </div>
+
+          <div class="timeline__block">
+            <div class="timeline__content">
+              <div class="timeline__year">2022 - 2023</div>
+              <h4>Baccalauréat Général</h4>
+              <p>
+                Lycée général Fénelon<br />
+                Spécialités : Mathématiques et Physique-Chimie<br />
+                Formation scientifique approfondie.
+              </p>
+            </div>
+            <div class="timeline__dot"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="competences" class="skills">
+        <div class="section-header">
+          <div class="section-header__tag">COMPÉTENCES</div>
+          <h2 class="section-header__title">Stack Technologique</h2>
+          <p class="section-header__desc">
+            Un ensemble de technologies modernes maîtrisées pour créer des
+            applications web performantes et évolutives.
+          </p>
+        </div>
+
+        <div class="skills__container">
+          <div class="skills__card">
+            <div class="skills__icon">🎨</div>
+            <div class="skills__name">HTML5</div>
+          </div>
+          <div class="skills__card">
+            <div class="skills__icon">✨</div>
+            <div class="skills__name">CSS3</div>
+          </div>
+          <div class="skills__card">
+            <div class="skills__icon">⚡</div>
+            <div class="skills__name">JavaScript</div>
+          </div>
+          <div class="skills__card">
+            <div class="skills__icon">🐘</div>
+            <div class="skills__name">PHP</div>
+          </div>
+          <div class="skills__card">
+            <div class="skills__icon">🗄️</div>
+            <div class="skills__name">MySQL</div>
+          </div>
+          <div class="skills__card">
+            <div class="skills__icon">🐍</div>
+            <div class="skills__name">Python</div>
+          </div>
+          <div class="skills__card">
+            <div class="skills__icon">🧪</div>
+            <div class="skills__name">Flask</div>
+          </div>
+          <div class="skills__card">
+            <div class="skills__icon">👾</div>
+            <div class="skills__name">C#</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projets" class="projects">
+        <div class="section-header">
+          <div class="section-header__tag">RÉALISATIONS</div>
+          <h2 class="section-header__title">Projets Développés</h2>
+        </div>
+
+        <div class="projects__grid">
+          <div class="projects__item">
+            <div class="projects__header">
+              <div class="projects__icon">🎯</div>
+              <h3>Jeu de Tir Interactif</h3>
+            </div>
+            <p>
+              Application web interactive de simulation de tir développée en
+              JavaScript vanilla. Le jeu intègre une mécanique réaliste de
+              gestion du vent qui influence la trajectoire des projectiles,
+              offrant une expérience immersive avec animations fluides et
+              feedback visuel instantané. Système de score et interface
+              utilisateur responsive.
+            </p>
+            <div class="projects__tags">
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">Canvas API</span>
+              <span class="tag">Game Logic</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="stages" class="experience">
+        <div class="section-header">
+          <div class="section-header__tag">EXPÉRIENCE</div>
+          <h2 class="section-header__title">Stage Professionnel</h2>
+        </div>
+
+        <div class="experience__grid">
+          <div class="experience__item">
+            <div class="experience__header">
+              <div class="experience__icon">🩺</div>
+              <h3>Hôpital Européen Georges-Pompidou (AP-HP)</h3>
+            </div>
+            <p>
+              <strong>📅 Période :</strong> 19 mai au 04 juillet 2025 (7
+              semaines)
+            </p>
+
+            <p class="experience__missions-title">
+              <strong>🎯 Missions réalisées :</strong>
+            </p>
+            <ul class="experience__missions-list">
+              Stage réalisé autour d’un chatbot médical interne destiné à
+              accélérer la recherche de protocoles, fiches techniques et
+              parcours patients.
+              <li>Cadrage fonctionnel avec les équipes de soins.</li>
+              <li>Conception d’une architecture Flask/API REST.</li>
+              <li>Sécurisation par JWT et CORS.</li>
+              <li>
+                Mise en place d’un flux d’ingestion documentaire (base de
+                connaissances versionnée).
+              </li>
+              <li>
+                Développement d’une interface web moderne et rédaction de la
+                documentation.
+              </li>
+              <li>
+                Préparation au déploiement via Nginx, dans le respect du RGPD.
+              </li>
+            </ul>
+
+            <div class="experience__tags">
+              <span class="tag">Python (Flask)</span>
+              <span class="tag">API REST</span>
+              <span class="tag">JWT</span>
+              <span class="tag">Chatbot Médical</span>
+              <span class="tag">RGPD</span>
+            </div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <div class="experience__grid">
+          <div class="experience__item">
+            <div class="experience__header">
+              <div class="experience__icon">🏢</div>
+              <h3>RC-Group • Service Informatique</h3>
+            </div>
+            <p>
+              <strong>📅 Période :</strong> 04 décembre au 15 décembre 2023 (2
+              semaines)
+            </p>
+
+            <p class="experience__missions-title">
+              <strong>🎯 Missions réalisées :</strong>
+            </p>
+            <ul class="experience__missions-list">
+              <li>
+                Installation et configuration d'équipements informatiques.
+              </li>
+              <li>
+                Support technique et résolution d'incidents logiciels et
+                matériels.
+              </li>
+              <li>
+                Maintenance préventive et optimisation du parc informatique.
+              </li>
+              <li>
+                Documentation des interventions et suivi des demandes
+                utilisateurs.
+              </li>
+            </ul>
+
+            <div class="experience__tags">
+              <span class="tag">Support IT</span>
+              <span class="tag">Maintenance</span>
+              <span class="tag">Dépannage</span>
+              <span class="tag">Configuration</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="veille" class="tech-watch">
+        <div class="section-header">
+          <div class="section-header__tag">INNOVATION</div>
+          <h2 class="section-header__title">Veille Technologique</h2>
+          <p class="section-header__desc">
+            Suivi des évolutions majeures dans le domaine des architectures
+            graphiques et leur impact sur les performances en gaming et création
+            de contenu.
+          </p>
+        </div>
+
+        <div class="tech-watch__grid">
+          <div class="tech-watch__item">
+            <div class="tech-watch__header">
+              <div class="tech-watch__icon">🔄</div>
+              <h3>Parallélisation et Cœurs de Traitement</h3>
+            </div>
+            <p>
+              Les architectures GPU modernes exploitent massivement la
+              parallélisation pour traiter simultanément des milliers
+              d'opérations. Les dernières générations ont considérablement
+              augmenté le nombre de cœurs CUDA (NVIDIA) et Stream Processors
+              (AMD), permettant d'optimiser radicalement le rendu 3D, le ray
+              tracing et les calculs de simulation complexes.
+            </p>
+          </div>
+
+          <div class="tech-watch__item">
+            <div class="tech-watch__header">
+              <div class="tech-watch__icon">✨</div>
+              <h3>Ray Tracing : Révolution du Réalisme</h3>
+            </div>
+            <p>
+              Le ray tracing matériel simule physiquement le comportement de la
+              lumière pour produire des rendus photoréalistes. Les architectures
+              NVIDIA Ada Lovelace et AMD RDNA 3 intègrent des cœurs RT dédiés
+              qui accélèrent drastiquement ces calculs, devenant la nouvelle
+              norme pour le réalisme graphique.
+            </p>
+          </div>
+
+          <div class="tech-watch__item">
+            <div class="tech-watch__header">
+              <div class="tech-watch__icon">🚀</div>
+              <h3>DLSS & FSR : L'Ère de l'Upscaling IA</h3>
+            </div>
+            <p>
+              Les technologies d'upscaling intelligentes comme DLSS 3.5 (NVIDIA)
+              et FSR 3 (AMD) révolutionnent les performances. En reconstruisant
+              l'image via deep learning, elles multiplient les FPS tout en
+              préservant une qualité visuelle exceptionnelle, ouvrant de
+              nouvelles perspectives pour le temps réel et la VR.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="section-header">
+          <div class="section-header__tag">CONTACT</div>
+          <h2 class="section-header__title">Travaillons Ensemble</h2>
+          <p class="section-header__desc">
+            Vous avez un projet, une opportunité ou simplement envie d'échanger?
+            N'hésitez pas à me contacter.
+          </p>
+        </div>
+
+        <div class="contact__grid">
+          <a href="mailto:marko.kolak.117@gmail.com" class="contact__item">
+            <div class="contact__icon">📧</div>
+            <h4>Email</h4>
+            <p>marko.kolak.117@gmail.com</p>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/marko-kolak/"
+            target="_blank"
+            class="contact__item"
+          >
+            <div class="contact__icon">💼</div>
+            <h4>LinkedIn</h4>
+            <p>Réseau professionnel</p>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2025 Marko LE COMTE-KOLAK • Conçu et développé avec passion 💙</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
